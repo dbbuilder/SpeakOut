@@ -33,7 +33,7 @@ jobs:
       continue-on-error: true
 
     - name: Check spelling
-      uses: streetsidesoftware/cspell-action@v5
+      uses: streetsidesoftware/cspell-action@v7
       with:
         files: '**/*.md'
         config: '.github/cspell.json'
